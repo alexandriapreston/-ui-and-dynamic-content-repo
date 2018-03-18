@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+	<meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<head>
+	<title>Grocery List</title>
 </head>
 <body>
-    <h1>Test File</h1>
+   
+    <header>
+    	<h1> Grocery List </h1>
+	</header>
+<div class="wrapper">
+	<form id="groceryForm">
+	<input id="groceryInput" placeholder="Groceries...">
+	<button id="grocerybutton" type="button" onclick="groceryList()" > <strong>Add Item</strong> </button>
+	</form>
+	<ul id="groceryList"> </ul>
+	<p class="feedback"></p>
+	<div class="space"></div>
+	<footer>
+        <a class="twitter" href="https://www.twitter.com"><img src="img/twitter.png"> </a>
+        <a class="pinterest" href="https://www.pinterest.com"><img src="img/pinterest.png"> </a>
+	</footer>
+	 <script src="js/index.js"></script>
+	 </div>
 </body>
+   
 </html>
